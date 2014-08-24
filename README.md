@@ -1,6 +1,6 @@
-# ng-reading-list: The Reading List in AngularJS
+# ng-reading-list: Reading List in AngularJS
 
-Note: Original repo [here](https://github.com/codeschool/AngularReadinglist). I just stole the specification that follows.
+Note: Original repo [here](https://github.com/codeschool/AngularReadinglist). I just stole the specification that follows. I'm using this example application to learn me some AngularJS.
 
 ## Installation
 
