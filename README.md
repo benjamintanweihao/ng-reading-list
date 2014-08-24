@@ -1,6 +1,6 @@
 # ng-reading-list: The Reading List in AngularJS
 
-Note: Original repo [here](https://github.com/codeschool/AngularReadinglist).
+Note: Original repo [here](https://github.com/codeschool/AngularReadinglist). I just stole the specification that follows.
 
 ## Installation
 
@@ -64,7 +64,7 @@ The list of Books can be sorted by:
 * alpha by title
 * rating e.g. higest first, unrated first
 
-## I can filter the list of Books
+### I can filter the list of Books
 
 The list of Books can be _filtered_ by:
 
