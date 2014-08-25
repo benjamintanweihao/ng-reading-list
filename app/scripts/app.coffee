@@ -19,12 +19,13 @@ angular
   ])
   .config ($routeProvider) ->
     $routeProvider
-      .when '/',
-        templateUrl: 'views/main.html'
-        controller: 'MainCtrl'
-      .when '/about',
-        templateUrl: 'views/about.html'
-        controller: 'AboutCtrl'
+      .when '/books',
+        templateUrl: 'views/books/index.html'
+        controller: 'BookCtrl'
+      .when '/books/new',
+        templateUrl: 'views/books/new.html'
+        controller: 'BookCtrl'
       .otherwise
         redirectTo: '/'
+        templateUrl: 'views/index.html'
 
