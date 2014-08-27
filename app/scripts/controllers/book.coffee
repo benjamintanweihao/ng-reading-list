@@ -8,6 +8,7 @@ angular.module('ngReadingListApp')
       { title: 'Book 3', author: 'Author 3', ain: 'asin', review: 'Review 3', rating: '1' },
     ]
     $scope.submit = (book) ->
+      $scope.success = false
       $scope.books.push(book)
-      alert(book)
+      $scope.success = true
       
