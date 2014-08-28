@@ -72,3 +72,9 @@ The list of Books can be _filtered_ by:
 * reviewed e.g. "review" is not empty
 * "good reads" e.g. ratings greater than "3"
 
+## TODO
+
+- [ ] edit a book
+- [ ] delete a book
+- [ ] amazon service to generate URL
+- [ ] display book image
