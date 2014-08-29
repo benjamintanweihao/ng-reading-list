@@ -17,10 +17,10 @@
           <td>{{ book.title }}</td>
           <td class="hidden-phone">{{ book.author }}</td>
           <td class="hidden-phone">{{ book.ain }}</td>
-          <td><span class="label label-info label-mini">{{ book.rating }}</span></td>
+          <td><span class="label label-info label">{{ book.rating }}</span></td>
           <td>
-            <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
-            <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
+            <button class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></button>
+            <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o " ng-click="delete(book)"></i></button>
           </td>
         </tr>
         </tbody>
