@@ -2251,3 +2251,7 @@ label {
 h5.logo {
   font-size: 2em;
 }
+
+#main-content > section > div > div > div > div > table > tbody > tr > td {
+  vertical-align: middle;
+}
