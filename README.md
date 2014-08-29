@@ -75,6 +75,7 @@ The list of Books can be _filtered_ by:
 ## TODO
 
 - [ ] edit a book
-- [ ] delete a book
+- [X] delete a book
+- [X] uuid service
 - [ ] amazon service to generate URL
 - [ ] display book image
