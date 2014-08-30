@@ -24,7 +24,10 @@ angular
         templateUrl: 'views/books/index.html'
         controller: 'BookCtrl'
       .when '/books/new',
-        templateUrl: 'views/books/form.html'
+        templateUrl: 'views/books/new.html'
+        controller: 'BookCtrl'
+      .when '/books/:book_id/edit',
+        templateUrl: 'views/books/edit.html'
         controller: 'BookCtrl'
       .otherwise
         redirectTo: '/'
